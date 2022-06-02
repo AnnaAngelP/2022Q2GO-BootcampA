@@ -13,3 +13,8 @@ type PokeEntries struct {
 type PokemonSpecies struct {
 	Name string `json:"name"`
 }
+
+type Data struct {
+	ID   int    `json:"id"`
+	Name string `json:"name"`
+}
